@@ -1,9 +1,10 @@
 # Tick2Candle_Dataflow
-<h2>This project demo how to convert tick data to candle data by using dataflow in Google Cloud Platform. It consis of 3 parts:</h2>
-<h2>1. Generate tick data</h2>
+<h2>This project demo how to convert tick data to candle data by using dataflow in Google Cloud Platform.</h2>
+<p>Flow: Tick Data(raw) --> GCP Pub/Sub --> GCP Dataflow --> GCP BigQuery</p>
+<h2>Three components:</h2>
+<h4>1. Generate tick data</h4>
    This part mimic the gernation of tick data by using Metatrader 4 platform. It will generate csv file with following format in 1.3. Other source of tick data also good, as long as cmply with output.<br>
 
-Components<br>
 <ul>
 <li>
 1.1 MetaTrader 4 (MT4)<br>
@@ -25,12 +26,12 @@ Components<br>
 </li>
 </ul>
 <br>
-<h2>2. Publish to GCP Pubsub</h2>
+<h4>2. Publish to GCP Pubsub</h4>
    Python script to publish tick data to google pubsub. A windows schedule job will trigger the python script every 2 minutes<br>
    Windows batch job run by schedule: publish/TickToPubsub.bat<br>
    Python script to publish tick data: publish/TickToPubsub.py<br>
 
-<h2>3. Capture Pubsub message to Dataflow</h2>
+<h4>3. Capture Pubsub message to Dataflow</h4>
    Subscript google pubsub and convert tick data to hourly candle. It will run in google dataflow.<br>
    Write Candle data to BigQuery table.<br>
    Dataflow script in python: TickDataflow.py<br>
