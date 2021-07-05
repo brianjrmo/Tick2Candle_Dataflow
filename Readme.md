@@ -32,7 +32,8 @@ Components<br>
 
 <h2>3. Capture Pubsub message to Dataflow</h2>
    Subscript google pubsub and convert tick data to hourly candle. It will run in google dataflow.<br>
-   Dataflow script in python: TickToPubsub.py<br>
+   Write Candle data to BigQuery table.<br>
+   Dataflow script in python: TickDataflow.py<br>
    Dataflow start from GCP terminal  with this command:<br>
    python TickDataflow.py  --runner DataflowRunner --project etl-practice-283400 --region us-west1 --streaming<br>
    
