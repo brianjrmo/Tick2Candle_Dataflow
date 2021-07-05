@@ -3,11 +3,11 @@
 <p>Flow: Tick Data(raw) --> GCP Pub/Sub --> GCP Dataflow --> GCP BigQuery</p>
 <h2>Three components:</h2>
 <h4>1. Generate tick data</h4>
-   This part mimic the gernation of tick data by using Metatrader 4 platform. It will generate csv file with following format in 1.3. Other source of tick data also good, as long as cmply with output.<br>
+   This part mimic the gernation of tick data by using Metatrader 4(MT4) platform. It will generate csv file with format in 1.3. Other source of tick data also good, as long as comply with output.<br>
 
 <ul>
 <li>
-1.1 MetaTrader 4 (MT4)<br>
+1.1 MT4<br>
     To download and install MT4 from:<br>
     https://www.fxcm.com/ca/platforms/metatrader-4/download/<br>
 </li>
