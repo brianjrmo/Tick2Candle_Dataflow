@@ -1,0 +1,4 @@
+python TickDataflow.py  --runner DataflowRunner \
+                        --project etl-practice-283400 \
+                        --region us-west1 \
+                        --streaming

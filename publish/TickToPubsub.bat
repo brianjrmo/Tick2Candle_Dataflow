@@ -1,0 +1,1 @@
+cmd /k "cd /d C:\Users\brianmo\pyven\fxpubsub\Scripts & activate & cd /d C:\Users\brianmo\pyven\fxpubsub & Scripts\python C:\Users\brianmo\OneDrive\studio\workplace\FXML\TickToPubsub.py runserver & exit"
