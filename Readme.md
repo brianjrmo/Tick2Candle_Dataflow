@@ -28,8 +28,8 @@
 <br>
 <h4>2. Publish to GCP Pubsub</h4>
    Python script to publish tick data to google pubsub. A windows schedule job will trigger the python script every 2 minutes<br>
-   Python <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/publish/TickToPubsub.py">script to publish tick data: publish/TickToPubsub.py</a><br>
-   Windows <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/publish/TickToPubsub.bat">batch job run by schedule: publish/TickToPubsub.bat</a><br>
+   Python script to publish tick data: <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/publish/TickToPubsub.py">publish/TickToPubsub.py</a><br>
+   Windows batch job run by schedule: <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/publish/TickToPubsub.bat">publish/TickToPubsub.bat</a><br>
 
 
 <h4>3. Capture Pubsub message to Dataflow</h4>
