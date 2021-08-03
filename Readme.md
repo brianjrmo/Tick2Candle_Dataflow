@@ -22,7 +22,7 @@
     Symbol        6 characters currency pair<br>
     Price         decimal<br>
     Volume        integer<br>
-    example: mt4/AUDCAD_2021.06.11_02_20_38_Tick.csv<br>
+    example: mt4/AUDCAD_2021.08.03_01_00_Tick.csv<br>
 </li>
 </ul>
 <br>
