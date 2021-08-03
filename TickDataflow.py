@@ -58,7 +58,7 @@ with beam.Pipeline(options=pipeline_options) as p:
       | 'timestamp' >> beam.Map(add_timestamp)
       | 'Window'    >> beam.WindowInto(window.FixedWindows(SAMPLE_PERIOD_SEC))
       | 'Key Value' >> beam.Map(lambda x: (x['Symbol'],x))
-      | 'max price' >> beam.GroupByKey()
+      | 'Grouping'  >> beam.GroupByKey()
       | 'statistic' >> beam.ParDo(ParCandle())
       | 'display'   >> beam.io.WriteToBigQuery(BIGQUERY_TABLE,
                                                custom_gcs_temp_location=TEMP_LOCATION,
