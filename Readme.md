@@ -13,7 +13,7 @@
 </li>
 <li>
 1.2 Expert:<br>
-    mt4/ticking.mq4<br>
+    <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/mt4/ticking.mq4">mt4/ticking.mq4</a><br>
 </li>
 <li>
 1.3 Output:<br>
