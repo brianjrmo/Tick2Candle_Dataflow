@@ -38,4 +38,6 @@
    Dataflow script in python: <a href="https://github.com/brianjrmo/Tick2Candle_Dataflow/blob/main/TickDataflow.py">TickDataflow.py</a><br>
    Dataflow start from GCP terminal  with this command:<br>
    python TickDataflow.py  --runner DataflowRunner --project etl-practice-283400 --region us-west1 --streaming<br>
+   <>BigQuer table: fxdb</a>
+   <a href="https://console.cloud.google.com/bigquery?project=etl-practice-283400&authuser=0&ws=!1m5!1m4!4m3!1setl-practice-283400!2sbeamlab!3sfxdb&d=beamlab&p=etl-practice-283400&t=fxdb&page=table">BigQuery table: fxdb</a>
    
